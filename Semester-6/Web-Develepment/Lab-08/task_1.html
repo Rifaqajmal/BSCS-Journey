@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Paragraph Example</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+
+p{
+background:#eee;
+padding:10px;
+margin:10px;
+cursor:pointer;
+}
+
+button{
+padding:8px 15px;
+margin:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Click Paragraph to Hide</h2>
+
+<p>This is paragraph 1.</p>
+<p>This is paragraph 2.</p>
+<p>This is paragraph 3.</p>
+<p>This is paragraph 4.</p>
+
+<button id="show">Show All</button>
+<button id="style">Change Style</button>
+
+<script>
+
+$(document).ready(function(){
+
+$("p").click(function(){
+$(this).hide();
+});
+
+$("#show").click(function(){
+$("p").show();
+});
+
+$("#style").click(function(){
+$("p").css("background","lightgreen");
+});
+
+});
+
+</script>
+
+</body>
+</html>

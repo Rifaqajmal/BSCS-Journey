@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Theme Changer</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+
+body{
+text-align:center;
+transition:0.3s;
+}
+
+button{
+padding:10px 20px;
+margin:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 id="heading">Welcome to My Website</h1>
+
+<p>This page theme can change using jQuery.</p>
+
+<button id="dark">Dark Mode</button>
+<button id="light">Light Mode</button>
+<button id="blue">Blue Theme</button>
+
+<script>
+
+$(document).ready(function(){
+
+$("#dark").click(function(){
+$("body").css({
+"background":"black",
+"color":"white"
+});
+});
+
+$("#light").click(function(){
+$("body").css({
+"background":"white",
+"color":"black"
+});
+});
+
+$("#blue").click(function(){
+$("body").css({
+"background":"lightblue",
+"color":"darkblue"
+});
+});
+
+$("#heading").hover(function(){
+$(this).css("font-size","45px");
+},
+function(){
+$(this).css("font-size","32px");
+});
+
+});
+
+</script>
+
+</body>
+</html>

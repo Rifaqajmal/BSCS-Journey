@@ -1,0 +1,25 @@
+.MODEL SMALL
+.STACK 100H
+
+.CODE
+MAIN PROC
+
+    MOV CX, 3
+
+OUTER:
+    MOV BX, 3
+
+INNER:
+    MOV DL, '#'
+    MOV AH, 02H
+    INT 21H
+
+    DEC BX
+    JNZ INNER
+
+    LOOP OUTER
+
+    MOV AH, 4CH
+    INT 21H
+MAIN ENDP
+END MAIN

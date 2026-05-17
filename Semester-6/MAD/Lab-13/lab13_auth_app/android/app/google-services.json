@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927706360730",
+    "project_id": "lab13firebase-a45e7",
+    "storage_bucket": "lab13firebase-a45e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927706360730:android:dfd954934dcebe0fd7e823",
+        "android_client_info": {
+          "package_name": "com.example.lab13_auth_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2wnncXkFjANVqHNLukiMVtLyTKZxlU5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

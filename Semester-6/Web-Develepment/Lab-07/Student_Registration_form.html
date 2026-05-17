@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+
+<style>
+
+body{
+font-family:Arial;
+}
+
+form{
+width:350px;
+margin:auto;
+padding:20px;
+border:1px solid #ccc;
+}
+
+input, select{
+width:100%;
+padding:8px;
+margin:5px 0;
+}
+
+.error{
+border:2px solid red;
+}
+
+.success{
+background:lightgreen;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2 style="text-align:center;">Student Registration Form</h2>
+
+<form id="myForm">
+
+<input type="text" id="name" placeholder="Full Name">
+
+<input type="text" id="email" placeholder="Email Address">
+
+<input type="password" id="password" placeholder="Password">
+
+<input type="password" id="confirm" placeholder="Confirm Password">
+
+<input type="number" id="age" placeholder="Age">
+
+<label>Gender:</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<select id="dept">
+<option>Select Department</option>
+<option>CS</option>
+<option>SE</option>
+<option>IT</option>
+</select>
+
+<br><br>
+
+<button type="button" onclick="validate()">Submit</button>
+
+<p id="message"></p>
+
+</form>
+
+<script>
+
+function validate(){
+
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let password = document.getElementById("password");
+let confirm = document.getElementById("confirm");
+let age = document.getElementById("age");
+let form = document.getElementById("myForm");
+let msg = document.getElementById("message");
+
+let valid = true;
+
+[name,email,password,confirm,age].forEach(i => i.classList.remove("error"));
+
+if(name.value == ""){
+name.classList.add("error");
+valid = false;
+}
+
+if(!email.value.includes("@") || !email.value.includes(".")){
+email.classList.add("error");
+valid = false;
+}
+
+if(password.value.length < 8){
+password.classList.add("error");
+valid = false;
+}
+
+if(password.value !== confirm.value){
+confirm.classList.add("error");
+valid = false;
+}
+
+if(age.value < 18 || age.value > 40){
+age.classList.add("error");
+valid = false;
+}
+
+if(valid){
+msg.innerText = "Registration Successful!";
+msg.style.color = "green";
+form.classList.add("success");
+}
+else{
+msg.innerText = "Please fix errors!";
+msg.style.color = "red";
+form.classList.remove("success");
+}
+
+}
+
+</script>
+
+</body>
+</html>

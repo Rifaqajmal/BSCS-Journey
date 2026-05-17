@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Theme Changer</title>
+
+<style>
+
+body{
+text-align:center;
+transition:0.3s;
+}
+
+button{
+padding:10px 20px;
+margin:10px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 id="heading">Welcome to My Website</h1>
+
+<p>This is a simple theme changer using JavaScript.</p>
+
+<button onclick="darkMode()">Dark Mode</button>
+<button onclick="lightMode()">Light Mode</button>
+<button onclick="blueMode()">Blue Theme</button>
+
+<script>
+
+
+function darkMode(){
+document.body.style.background="black";
+document.body.style.color="white";
+}
+
+function lightMode(){
+document.body.style.background="white";
+document.body.style.color="black";
+}
+
+function blueMode(){
+document.body.style.background="lightblue";
+document.body.style.color="darkblue";
+}
+
+
+let heading = document.getElementById("heading");
+
+heading.onmouseover = function(){
+heading.style.fontSize = "40px";
+}
+
+heading.onmouseout = function(){
+heading.style.fontSize = "32px";
+}
+
+</script>
+
+</body>
+</html>
