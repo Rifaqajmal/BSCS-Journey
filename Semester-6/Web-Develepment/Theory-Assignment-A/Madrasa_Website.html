@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madrassa – Islamic Education for Women</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:    #2d6a4f;
+      --green-lt: #40916c;
+      --gold:     #b7950b;
+      --cream:    #fdf8f0;
+      --text:     #1a1a1a;
+      --muted:    #555;
+      --border:   #d4c9a8;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--green);
+      color: #fff;
+      text-align: center;
+      padding: 48px 24px 36px;
+    }
+    header .arabic-name {
+      font-family: 'Amiri', serif;
+      font-size: 2rem;
+      color: #d4c9a8;
+      margin-bottom: 4px;
+    }
+    header h1 {
+      font-family: 'Amiri', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    header p.tagline {
+      margin-top: 8px;
+      font-weight: 300;
+      font-size: 1rem;
+      color: #c8e6c9;
+      letter-spacing: 1px;
+    }
+    .gold-line {
+      width: 60px;
+      height: 3px;
+      background: var(--gold);
+      margin: 16px auto 0;
+      border-radius: 2px;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background: var(--green-lt);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 20px;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      transition: background 0.2s;
+    }
+    nav a:hover { background: rgba(0,0,0,0.15); }
+
+    /* ── MAIN LAYOUT ── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    /* ── SECTION ── */
+    section {
+      margin-bottom: 56px;
+    }
+    section h2 {
+      font-family: 'Amiri', serif;
+      font-size: 1.7rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    section h2 .urdu {
+      font-size: 1.2rem;
+      color: var(--gold);
+      margin-right: 10px;
+    }
+    p { margin-bottom: 14px; color: var(--muted); }
+
+    /* ── ANNOUNCEMENT BOX ── */
+    .announcement {
+      background: #e8f5e9;
+      border-left: 4px solid var(--green);
+      padding: 20px 24px;
+      border-radius: 4px;
+    }
+    .announcement p { margin: 0 0 8px; }
+    .announcement .timing {
+      display: flex;
+      gap: 24px;
+      margin-top: 12px;
+      font-weight: 700;
+      color: var(--green);
+    }
+
+    /* ── FOUNDER CARD ── */
+    .founder-card {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    .founder-badge {
+      background: var(--green);
+      color: #fff;
+      border-radius: 8px;
+      padding: 24px 28px;
+      min-width: 180px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .founder-badge .name {
+      font-family: 'Amiri', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    .founder-badge .title {
+      font-size: 0.82rem;
+      color: #c8e6c9;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+    .founder-message blockquote {
+      font-family: 'Amiri', serif;
+      font-size: 1.1rem;
+      color: var(--text);
+      border-left: 3px solid var(--gold);
+      padding-left: 16px;
+      margin-bottom: 16px;
+      font-style: italic;
+    }
+
+    /* ── EDUCATION LIST ── */
+    .edu-list {
+      list-style: none;
+      padding: 0;
+    }
+    .edu-list li {
+      padding: 8px 0 8px 24px;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      position: relative;
+    }
+    .edu-list li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 0.6rem;
+      top: 12px;
+    }
+
+    /* ── COURSE TABS ── */
+    .tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+    .tab-btn {
+      padding: 8px 16px;
+      border: 2px solid var(--green);
+      background: transparent;
+      color: var(--green);
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.88rem;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--green);
+      color: #fff;
+    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── URDU SECTION ── */
+    .urdu-block {
+      direction: rtl;
+      font-family: 'Amiri', serif;
+      font-size: 1.15rem;
+      line-height: 2;
+      color: var(--text);
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 24px 28px;
+    }
+    .urdu-block h3 {
+      color: var(--green);
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    .urdu-block ul {
+      padding-right: 20px;
+      color: var(--muted);
+    }
+    .urdu-block ul li { margin-bottom: 6px; }
+
+    /* ── CONTACT ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .contact-item {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px 24px;
+    }
+    .contact-item .label {
+      font-size: 0.78rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .contact-item .value {
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--green);
+      color: #c8e6c9;
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 0.88rem;
+    }
+    footer span { color: var(--gold); }
+
+    /* ── UTILITY ── */
+    .badge {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      font-size: 0.78rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="arabic-name">بِسْمِ اللهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+  <h1>Madrassa for Islamic Education</h1>
+  <p class="tagline">Quality Islamic Education &amp; Moral Training for Female Students</p>
+  <div class="gold-line"></div>
+</header>
+
+<!-- NAV -->
+<nav>
+  <a href="#announcement">Announcement</a>
+  <a href="#founder">Founder</a>
+  <a href="#courses">Courses</a>
+  <a href="#daily">Daily Syllabus</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+  <!-- ANNOUNCEMENT -->
+  <section id="announcement">
+    <h2>📢 Announcement</h2>
+    <div class="announcement">
+      <p>
+        We are pleased to announce that our Madrassa is fully equipped with a highly qualified teaching faculty
+        consisting of <strong>8 experienced Muallimat</strong>, who possess strong educational expertise in Islamic studies.
+        Through their dedicated teaching, students are provided with valuable and authentic Islamic education,
+        focusing on knowledge, character building, and moral development.
+      </p>
+      <p>At present, more than <strong>38 students</strong> are enrolled and actively benefiting from this structured learning environment.</p>
+      <div class="timing">
+        <span>🕗 Class Timings: 8:00 AM – 1:00 PM</span>
+        <span>📅 Friday: Off</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section id="founder">
+    <h2>Message from the Founder</h2>
+    <div class="founder-card">
+      <div class="founder-badge">
+        <div class="name">Molana XYZ</div>
+        <div class="title">PhD Scholar &amp; Alim-e-Deen<br/>Founder</div>
+      </div>
+      <div class="founder-message">
+        <blockquote>In the name of Allah, the Most Gracious, the Most Merciful.</blockquote>
+        <p>
+          This Madrassa was established in 2021 with the purpose of providing quality Islamic education
+          and strong moral training for female students. Our goal is to help young women grow in
+          knowledge, character, and confidence, guided by the teachings of Islam.
+        </p>
+        <p>
+          We encourage our students to learn with sincerity, respect, and dedication. Along with Islamic
+          knowledge, we also focus on good manners, responsibility, and preparing students to become
+          positive members of society.
+        </p>
+        <p><em>May Allah bless all our students, guide them on the right path, and accept their efforts.</em></p>
+      </div>
+    </div>
+
+    <br/>
+    <h2>Founder's Background</h2>
+    <span class="badge">Educational Background</span>
+    <ul class="edu-list">
+      <li>Hifz-e-Quran (1996)</li>
+      <li>Dars-e-Nizami – 8 Years (2000–2011)</li>
+      <li>Bachelor's Degree (2003)</li>
+      <li>PhD in Islamic Studies (2025)</li>
+    </ul>
+    <br/>
+    <span class="badge">Professional Experience</span>
+    <ul class="edu-list">
+      <li>Teaching &amp; Academic Experience (since 2014)</li>
+    </ul>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <h2>Our Courses</h2>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('alima')">6-Year Alima Course</button>
+      <button class="tab-btn" onclick="showTab('40day')">40-Day Short Course</button>
+      <button class="tab-btn" onclick="showTab('annual')">Annual Vacations Course</button>
+    </div>
+
+    <!-- 6-Year Alima Course -->
+    <div id="tab-alima" class="tab-panel active">
+      <div class="urdu-block">
+        <h3>دَرسِ نظامی — ۶ سالہ عالمہ کورس</h3>
+        <p>یہ کورس طالبات کو ایک مکمل اسلامی اسکالر (عالمہ) بنانے کے لیے ترتیب دیا گیا ہے، جس میں دینی علوم کی گہرائی اور تحقیق پر خصوصی توجہ دی جاتی ہے۔</p>
+        <h3>سال اول تا دوم — ابتدائی مرحلہ</h3>
+        <ul>
+          <li>عربی زبان کی بنیاد (نحو و صرف)</li>
+          <li>بنیادی دینی مضامین</li>
+          <li>فقہ اور منطق</li>
+          <li>ترجمہ قرآن کا آغاز</li>
+        </ul>
+        <h3>سال سوم تا چہارم — درمیانی مرحلہ</h3>
+        <ul>
+          <li>اعلیٰ عربی گرامر (نحو و صرف)</li>
+          <li>اصولِ فقہ</li>
+          <li>تفسیر القرآن</li>
+          <li>علمی و تحقیقی مطالعہ</li>
+          <li>علم العقائد</li>
+        </ul>
+        <h3>سال پنجم</h3>
+        <ul>
+          <li>فقہ</li>
+          <li>تفصیل کے ساتھ تفسیر</li>
+          <li>احادیثِ مبارکہ کا مطالعہ</li>
+        </ul>
+        <h3>سال ششم — صحاحِ ستہ</h3>
+        <ul>
+          <li>صحیح بخاری</li>
+          <li>صحیح مسلم</li>
+          <li>سنن ابی داؤد</li>
+          <li>جامع ترمذی</li>
+          <li>حدیث کی تشریح اور تحقیق</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 40-Day Course -->
+    <div id="tab-40day" class="tab-panel">
+      <div class="urdu-block">
+        <h3>۴۰ روزہ مختصر کورس</h3>
+        <p>یہ مختصر کورس طالبات کے لیے تیار کیا گیا ہے تاکہ وہ چھٹیوں میں دینی علوم کو بہتر انداز میں سیکھ سکیں اور اپنی بنیاد مضبوط کریں۔</p>
+        <ul>
+          <li><strong>عقائد:</strong> توحید اور رسالت کی بنیادی سمجھ، شرک و بدعات سے بچاؤ</li>
+          <li><strong>عربی گرامر:</strong> نحو و صرف کی بنیادی مشق، الفاظ کی پہچان</li>
+          <li><strong>روزانہ عربی بول چال:</strong> سلام، تعارف اور عام گفتگو</li>
+          <li><strong>فقہ (عورتوں کے مسائل):</strong> طہارت، نماز، حیض و نفاس، روزہ</li>
+          <li><strong>تجوید:</strong> مخارج الحروف، قواعدِ تجوید، روزانہ تلاوت کی پریکٹس</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Annual Vacations Course -->
+    <div id="tab-annual" class="tab-panel">
+      <div class="urdu-block">
+        <h3>سالانہ تعطیلات — ۲ ماہ کا خصوصی کورس</h3>
+        <p>(شعبان اور رمضان المبارک)</p>
+        <p>یہ کورس دو مختلف سطحوں پر ترتیب دیا گیا ہے تاکہ مختلف طلبہ و طالبات اپنی ضرورت کے مطابق استفادہ کر سکیں۔</p>
+        <h3>۱) دورِ تفسیر — عام لوگوں کے لیے</h3>
+        <ul>
+          <li>قرآن مجید کی آسان اور سادہ تفسیر</li>
+          <li>روزمرہ قرآنی ہدایات سے متعلق</li>
+          <li>ایمان و عمل کی اصلاح پر خصوصی زور</li>
+        </ul>
+        <h3>۲) صرف و نحو — مدرسہ کی طالبات اور معلمات کے لیے</h3>
+        <ul>
+          <li>عربی گرامر کی بنیادی و اعلیٰ مشق</li>
+          <li>جملوں کی ساخت (ترکیب و تحلیل)</li>
+          <li>اسم، فعل، حرف کی تفصیلی پہچان</li>
+          <li>قرآن و حدیث میں نحوی تطبیق</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAILY SYLLABUS -->
+  <section id="daily">
+    <h2>Daily Syllabus <span style="font-size:1rem;color:var(--muted);">(روزانہ نصاب)</span></h2>
+    <div class="urdu-block">
+      <ul>
+        <li><strong>۱. ترجمۂ قرآن:</strong> روزانہ منتخب آیات کا ترجمہ — آسان فہم اور معنی کی وضاحت</li>
+        <li><strong>۲. تفسیرِ قرآن:</strong> آیات کی تفصیلی تشریح، شانِ نزول اور اہم نکات</li>
+        <li><strong>۳. نظیرۂ قرآن:</strong> روزانہ تلاوت کی مشق — روانی اور درست ادائیگی</li>
+        <li><strong>۴. تجوید:</strong> مخارج الحروف کی مشق، قواعدِ تجوید (غنہ، مد، وقف وغیرہ)، درست تلفظ کی پریکٹس</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="label">📞 Phone</div>
+        <div class="value">xyz</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">✉️ Email</div>
+        <div class="value">xyz@gmail.com</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">📍 Address</div>
+        <div class="value">xyz, Khyber Pakhtunkhwa, Pakistan</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Madrassa — Islamic Education for Female Students &nbsp;|&nbsp; <span>Khyber Pakhtunkhwa, Pakistan</span></p>
+  <p style="margin-top:6px; font-size:0.8rem;">Established 2021 &nbsp;·&nbsp; May Allah accept this effort. Ameen.</p>
+</footer>
+
+<script>
+  function showTab(id) {
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

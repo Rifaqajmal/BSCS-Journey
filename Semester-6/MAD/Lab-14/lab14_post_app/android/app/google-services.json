@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649210134456",
+    "project_id": "lab14firebase-bc59c",
+    "storage_bucket": "lab14firebase-bc59c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649210134456:android:51b85c5268089fe1f1d94d",
+        "android_client_info": {
+          "package_name": "com.example.lab14_post_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnguhzqX3glJbuZmZNl8CG1Jv78AY47xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
