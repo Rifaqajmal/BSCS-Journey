@@ -2,7 +2,7 @@
 
 A complete collection of my academic work throughout the Bachelor of Science in Computer Science (BSCS) program at the University of Engineering & Technology (UET) Mardan.
 
-This repository documents my learning journey from Semester 1 to Semester 6, including programming assignments, lab work, reports, projects, research activities, and practical implementations across various computer science domains.
+This repository documents my learning journey from Semester 1 to Semester 6, including programming assignments, lab work, reports, projects, research activities, and practical implementations across multiple computer science domains.
 
 ---
 
@@ -10,59 +10,35 @@ This repository documents my learning journey from Semester 1 to Semester 6, inc
 
 **Rifaq Ajmal**
 
-🎓 BS Computer Science Student  
-🏫 University of Engineering & Technology (UET) Mardan  
-💻 Full Stack Web Developer | Flutter Developer  
+🎓 BS Computer Science Graduate (UET Mardan)
+💻 Full Stack Web Developer | Flutter Developer
 🌱 Passionate about Software Development, Web Technologies, Mobile Applications, and Problem Solving
 
 ---
 
 ## 📚 Academic Journey
 
-| Semester | Major Areas |
-|-----------|------------|
-| Semester 1 | Programming Fundamentals, ICT |
-| Semester 2 | OOP, DLD, Discrete Structures |
-| Semester 3 | DSA, DBMS, COAL |
-| Semester 4 | Artificial Intelligence, Computer Networks, DAA |
-| Semester 5 | Numerical Computing, Operating Systems, Information Security |
+| Semester   | Major Areas                                                               |
+| ---------- | ------------------------------------------------------------------------- |
+| Semester 1 | Programming Fundamentals, ICT                                             |
+| Semester 2 | OOP, DLD, Discrete Structures                                             |
+| Semester 3 | DSA, DBMS, COAL                                                           |
+| Semester 4 | Artificial Intelligence, Computer Networks, DAA                           |
+| Semester 5 | Numerical Computing, Operating Systems, Information Security              |
 | Semester 6 | Mobile App Development, Web Development, Parallel & Distributed Computing |
 
 ---
 
 ## 📂 Repository Structure
 
-### 📘 Semester 1
-- Fundamentals of Programming (C)
-- ICT (HTML Basics)
-
-### 📘 Semester 2
-- Object-Oriented Programming (C++)
-- Digital Logic Design (DLD)
-- Discrete Structures
-
-### 📘 Semester 3
-- Data Structures & Algorithms (DSA)
-- Database Management Systems (DBMS)
-- Computer Organization & Assembly Language (COAL)
-
-### 📘 Semester 4
-- Artificial Intelligence (AI)
-- Computer Networks
-- Design & Analysis of Algorithms (DAA)
-- Nexus File Organizer (Semester Project)
-
-### 📘 Semester 5
-- Numerical Computing
-- Operating Systems
-- Information Security
-
-### 📘 Semester 6
-- Mobile Application Development (Flutter)
-- Parallel & Distributed Computing (MPI, OpenCL, CUDA)
-- Web Development
-- School Fee, Salary & Attendance Management System
-- Life Track Mobile Application
+| Semester                      | Subjects & Highlights                                                        |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| 📘 [Semester-1](./Semester-1) | Fundamentals of Programming (C), ICT                                         |
+| 📘 [Semester-2](./Semester-2) | Object-Oriented Programming (C++), Digital Logic Design, Discrete Structures |
+| 📘 [Semester-3](./Semester-3) | Data Structures & Algorithms, DBMS, COAL                                     |
+| 📘 [Semester-4](./Semester-4) | Artificial Intelligence, Computer Networks, DAA, Nexus File Organizer        |
+| 📘 [Semester-5](./Semester-5) | Numerical Computing, Operating Systems, Information Security                 |
+| 📘 [Semester-6](./Semester-6) | MAD, PDC, Web Development, Semester Projects                                 |
 
 ---
 
@@ -70,123 +46,134 @@ This repository documents my learning journey from Semester 1 to Semester 6, inc
 
 ### Programming Languages
 
-- C
-- C++
-- Python
-- Dart
-- PHP
-- JavaScript
-- SQL
-- Assembly Language
+* C
+* C++
+* Python
+* Dart
+* PHP
+* JavaScript
+* SQL
+* Assembly Language
 
-### Web Technologies
+### Web Development
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- PHP
-- MySQL
-- CodeIgniter 4
-- WordPress
+* HTML5
+* CSS3
+* Bootstrap 5
+* PHP
+* MySQL
+* CodeIgniter 4
+* WordPress
 
 ### Mobile Development
 
-- Flutter
-- Firebase
-- Stripe Integration
-- Hive Database
-- Google Maps API
+* Flutter
+* Firebase Authentication
+* Firebase Realtime Database
+* Stripe Payment Integration
+* Hive Database
+* Google Maps API
 
 ### Parallel Computing
 
-- MPI (mpi4py)
-- OpenCL
-- CUDA
-
-### Database Technologies
-
-- MySQL
-- Firebase Realtime Database
-- Hive
+* MPI (mpi4py)
+* OpenCL
+* CUDA
 
 ### Tools & Platforms
 
-- Git & GitHub
-- VS Code
-- Android Studio
-- XAMPP
-- Cisco Packet Tracer
-- Jupyter Notebook
+* Git & GitHub
+* VS Code
+* Android Studio
+* XAMPP
+* Cisco Packet Tracer
+* Jupyter Notebook
 
 ---
 
 ## 🌟 Major Academic Projects
 
 ### 📁 Nexus File Organizer
-Python-based desktop application for automatic file organization.
+
+Python-based desktop application for automatic file organization and management.
 
 ### 🏫 School Fee, Salary & Attendance Management System
-Full-stack PHP & MySQL web application for educational institution management.
+
+Full-stack PHP & MySQL web application for managing students, teachers, attendance, fees, salaries, and reports.
+
+### 🏪 Shop Rental Management System
+
+Complete PHP & MySQL management system featuring authentication, billing, payments, receipts, ledgers, and reports.
 
 ### 📱 Life Track
+
 Flutter-based mobile application developed as a semester project.
 
 ### 📊 SJF Scheduling Project
-Operating System project implementing Shortest Job First Scheduling.
+
+Python implementation of the Shortest Job First CPU Scheduling Algorithm.
 
 ### 🧮 Numerical Computing Implementations
-Python implementations of numerical methods and computational algorithms.
+
+Collection of Python implementations for numerical methods and computational algorithms.
 
 ---
 
 ## 📈 Skills Gained
 
 ### Software Development
-- Object-Oriented Programming
-- Problem Solving
-- Algorithm Design
-- Data Structures
+
+* Object-Oriented Programming
+* Data Structures & Algorithms
+* Problem Solving
+* Software Design Principles
 
 ### Web Development
-- Frontend Development
-- Backend Development
-- Database Integration
-- Authentication Systems
-- MVC Architecture
+
+* Frontend Development
+* Backend Development
+* Database Integration
+* CRUD Systems
+* Authentication Systems
+* MVC Architecture
 
 ### Mobile Development
-- Flutter Development
-- Firebase Integration
-- API Integration
-- Mobile Security
+
+* Flutter App Development
+* Firebase Integration
+* API Integration
+* Payment Gateway Integration
+* Mobile Security
 
 ### Database Management
-- Database Design
-- SQL Querying
-- CRUD Operations
-- Relational Databases
 
-### Networking & Systems
-- Computer Networks
-- Operating Systems
-- Parallel Computing
-- Distributed Systems
+* MySQL
+* Firebase
+* Database Design
+* SQL Querying
+
+### Systems & Networking
+
+* Operating Systems
+* Computer Networks
+* Parallel Computing
+* Distributed Systems
 
 ---
 
 ## 📖 Learning Outcomes
 
-Through this journey, I gained practical experience in:
+Through this academic journey, I gained practical experience in:
 
-✅ Software Development  
-✅ Web Development  
-✅ Mobile Application Development  
-✅ Database Design & Management  
-✅ Artificial Intelligence Fundamentals  
-✅ Computer Networks  
-✅ Parallel & Distributed Computing  
-✅ Information Security  
-✅ Algorithm Design & Analysis  
+✅ Software Development
+✅ Full Stack Web Development
+✅ Mobile Application Development
+✅ Database Design & Management
+✅ Artificial Intelligence Fundamentals
+✅ Computer Networks
+✅ Parallel & Distributed Computing
+✅ Information Security
+✅ Algorithm Design & Analysis
 ✅ Version Control using Git & GitHub
 
 ---
@@ -205,6 +192,6 @@ https://rifaqajmal.github.io
 
 ## ⭐ Repository Purpose
 
-This repository serves as a complete academic archive showcasing my growth, learning progress, practical work, and projects completed throughout my BS Computer Science degree.
+This repository serves as a complete academic archive showcasing my learning journey, practical work, laboratory exercises, assignments, and projects completed throughout my BS Computer Science degree at UET Mardan.
 
----
+If you are a student, recruiter, or developer, feel free to explore the repository and review the projects and implementations.
