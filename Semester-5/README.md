@@ -1,93 +1,53 @@
-# Semester 5 – BS Computer Science
+# Semester 5
 
-This folder contains coursework, assignments, practical implementations, and projects completed during Semester 5 of the BS Computer Science program at UET Mardan.
+Semester 5 focused on advanced computing concepts including Information Security, Numerical Computing, and Operating Systems.
 
----
+## Subjects
 
-## Subjects Included
+### 🔒 Information Security
 
-### Numerical Computing
-
-Topics Covered:
-
-* Root Finding Methods
-* Numerical Approximation
-* Interpolation Techniques
-* Numerical Integration
-* Solving Linear Systems
-
-Practical Work:
-
-* Bisection Method
-* Newton-Raphson Method
-* Gaussian Elimination
-* Lagrange Interpolation
-* Trapezoidal Rule
-
-Implemented using Python for understanding numerical problem-solving techniques.
-
----
-
-### Operating Systems
-
-Topics Covered:
-
-* Process Management
-* CPU Scheduling Algorithms
-* Operating System Concepts
-* Resource Allocation
-
-Practical Work:
-
-* Shortest Job First (SJF) Scheduling Algorithm
-* Scheduling Simulation using Python
-
-Project Included:
-
-* SJF Scheduling Project
-* Scheduling Analysis Report
-
----
-
-### Information Security
-
-Topics Covered:
-
-* Information Security Fundamentals
+* Security Fundamentals
+* Cryptography
+* Authentication
 * Cyber Security Concepts
-* Threats & Vulnerabilities
-* Security Mechanisms
-* Data Protection
+* Risk Management
 
-Practical Work:
+### 📊 Numerical Computing
 
-* Security Assignments
-* Research Activities
-* Security Case Studies
+* Root Finding Algorithms
+* Numerical Integration
+* Interpolation Methods
+* Scientific Computing
 
----
+### ⚙️ Operating System
+
+* Process Scheduling
+* CPU Management
+* Resource Allocation
+* Operating System Concepts
 
 ## Technologies Used
 
 * Python
+* Mathematical Computing Tools
+
+## Skills Developed
+
+* Cybersecurity Awareness
+* Numerical Analysis
+* Scientific Programming
 * Operating System Concepts
-* Numerical Methods
-* Information Security Principles
+* Algorithm Implementation
+* Computational Problem Solving
+
+## Major Project
+
+### SJF Scheduling Project
+
+Implementation of the Shortest Job First Scheduling algorithm demonstrating CPU scheduling and process management concepts.
 
 ---
 
-## Learning Outcomes
-
-* Applied Numerical Computing Techniques
-* Understanding of CPU Scheduling Algorithms
-* Practical Python Problem Solving
-* Cyber Security Awareness
-* Analytical & Computational Thinking
-
----
-
-## Author
-
-Rifaq Ajmal
-
-BS Computer Science – UET Mardan
+**Semester:** 5
+**Program:** BS Computer Science
+**University:** UET Mardan
