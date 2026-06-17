@@ -1,127 +1,59 @@
-# Semester 4 – BS Computer Science
+# Semester 4
 
-This folder contains coursework, laboratory exercises, assignments, and projects completed during Semester 4 of the BS Computer Science program at UET Mardan.
+Semester 4 focused on advanced computing concepts including Artificial Intelligence, Computer Networks, and Design & Analysis of Algorithms. This semester also included the development of a practical software project.
 
----
+## Subjects
 
-## Subjects Included
+### 🤖 Artificial Intelligence
 
-### Artificial Intelligence (AI)
+* Python Programming
+* Machine Learning Basics
+* Data Analysis
+* AI Problem Solving
+* Jupyter Notebook Projects
 
-Topics Covered:
+### 🌐 Computer Networks
 
-* Python Programming for AI
-* Problem Solving Techniques
-* Search Algorithms
-* Data Processing
-* Machine Learning Fundamentals
-* Classification Techniques
-* Data Analysis using Python
-* Jupyter Notebook Development
-
-Practical Work:
-
-* Multiple Python-based AI Lab Tasks
-* Machine Learning Classification Exercises
-* Data Processing & Analysis
-* Jupyter Notebook Experiments
-
----
-
-### Computer Networks
-
-Topics Covered:
-
-* Network Fundamentals
-* LAN & WAN Design
-* Switching & Routing
+* Cisco Packet Tracer
+* Routing & Switching
 * DHCP Configuration
 * DNS Configuration
-* Web Server Configuration
-* RIP Routing Protocol
-* OSPF Routing Protocol
+* Web Servers
+* RIP & OSPF Protocols
 
-Practical Work:
-
-* Cisco Packet Tracer Simulations
-* Network Design Exercises
-* Routing & Switching Labs
-* Server Configuration Tasks
-
----
-
-### Design & Analysis of Algorithms (DAA)
-
-Topics Covered:
+### 📊 Design & Analysis of Algorithms
 
 * Sorting Algorithms
 * Searching Algorithms
-* Divide & Conquer
 * Dynamic Programming
-* Greedy Algorithms
 * Graph Algorithms
+* Complexity Analysis
 
-Practical Work:
+### 📁 Semester Project
 
-* Insertion Sort
-* Bubble Sort
-* Selection Sort
-* Merge Sort
-* Quick Sort
-* Heap Sort
-* Binary Search
-* Dynamic Programming (Fibonacci)
-* Fractional Knapsack
-* Dijkstra Algorithm
-* Kruskal Algorithm
-* Topological Sorting
+#### Nexus File Organizer
 
----
-
-## Semester Project
-
-### Nexus File Organizer
-
-A desktop application developed using Python to automatically organize files into categorized folders.
-
-Features:
-
-* Automatic File Sorting
-* Category-Based Organization
-* User-Friendly Interface
-* File Management Automation
-
-Project Files Included:
-
-* Source Code
-* Executable Application
-* Project Proposal
-* Project Report
-
----
+A Python-based desktop application for automatic file organization and management.
 
 ## Technologies Used
 
 * Python
-* Jupyter Notebook
+* C++
 * Cisco Packet Tracer
-* Data Analysis Libraries
-* Algorithm Design Techniques
+* Jupyter Notebook
+
+## Skills Developed
+
+* Artificial Intelligence Fundamentals
+* Machine Learning Concepts
+* Network Configuration
+* Routing Protocols
+* Algorithm Design
+* Complexity Analysis
+* Software Development
 
 ---
 
-## Learning Outcomes
-
-* Practical Artificial Intelligence Concepts
-* Computer Network Design & Configuration
-* Algorithm Design & Optimization
-* Python Application Development
-* Problem Solving & Analytical Thinking
-
----
-
-## Author
-
-Rifaq Ajmal
-
-BS Computer Science – UET Mardan
+**Semester:** 4
+**Program:** BS Computer Science
+**University:** UET Mardan
