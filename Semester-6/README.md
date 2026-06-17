@@ -1,72 +1,159 @@
-# Semester 6 – BS Computer Science
+# 🚀 Semester 6 – Advanced Software Development & Specialization
 
-This folder contains coursework, laboratory work, assignments, and semester projects completed during Semester 6 of the BS Computer Science program at UET Mardan.
+This semester focused on modern software development technologies including Mobile Application Development, Web Development, and Parallel & Distributed Computing.
+
+The coursework involved building real-world applications, integrating APIs and cloud services, implementing distributed computing concepts, and completing major semester projects.
 
 ---
 
-## Subjects Included
+# 📚 Subjects Included
 
-### Mobile Application Development (MAD)
+## 📱 Mobile Application Development (MAD)
 
-Practical mobile application development using Flutter and Dart.
+Developed Android applications using Flutter and Dart, progressing from basic UI design to advanced mobile features.
 
-#### Topics Covered
+### Technologies Learned
 
-* Flutter Fundamentals
-* UI Design & Layouts
+* Flutter
+* Dart
+* Firebase Authentication
+* Firebase Realtime Database
+* Hive Database
+* Stripe Payment Gateway
+* Google Maps API
+* Android SDK
+* Gradle
+* Android Permissions
+
+### Major Concepts Covered
+
+* Flutter Widgets
+* Stateful & Stateless Widgets
 * Navigation & Routing
 * Forms & Validation
 * State Management
-* Firebase Authentication
-* Firebase Realtime Database
+* Firebase Integration
 * API Integration
-* Stripe Payment Gateway
-* Hive Local Database
-* Fingerprint Authentication
+* Local Storage
+* Authentication Systems
+* Mobile Security
 * Google Maps Integration
 * APK & AAB Generation
-* Android Deployment
 
-#### Major Applications Developed
+### Labs Completed
 
-* Login & Signup Apps
-* Firebase CRUD Applications
-* Stripe Payment Application
-* Fingerprint Authentication App
-* Google Maps Application
-* Life Track Semester Project
+| Lab    | Topics                              |
+| ------ | ----------------------------------- |
+| Lab 01 | Flutter Introduction & Setup        |
+| Lab 02 | Flutter UI Design                   |
+| Lab 03 | Buttons & User Interaction          |
+| Lab 04 | Forms & Input Handling              |
+| Lab 05 | Navigation & Multiple Screens       |
+| Lab 06 | Dynamic UI & Lists                  |
+| Lab 07 | Assets & Images                     |
+| Lab 08 | Stateful Widgets & State Management |
+| Lab 09 | Firebase Setup                      |
+| Lab 10 | Firebase Authentication             |
+| Lab 11 | API Integration                     |
+| Lab 12 | Firebase Database Integration       |
+| Lab 13 | Complete Authentication App         |
+| Lab 14 | Firebase Post Application           |
+| Lab 15 | Google Maps Integration             |
+| Lab 16 | Complete Firebase Application       |
+
+### Major Mobile Projects
+
+#### 💳 Payment App
+
+* Stripe Payment Gateway Integration
+* Payment Sheet Integration
+* Real Test Payments
+* Secure Payment Workflow
+
+#### 🔐 Fingerprint Authentication App
+
+* Biometric Login
+* Fingerprint Verification
+* Mobile Security Features
+
+#### 📍 Google Maps App
+
+* Maps Integration
+* Current Device Location
+* Custom Markers
+* GPS Services
+
+#### 📱 Life Track (Semester Project)
+
+A Flutter-based productivity and tracking application developed as the semester project.
+
+Features:
+
+* Firebase Integration
+* Modern Flutter Architecture
+* Multiple Screens
+* State Management
+* Responsive User Interface
 
 ---
 
-### Parallel & Distributed Computing (PDC)
+## ⚡ Parallel & Distributed Computing (PDC)
 
-Practical implementation of parallel computing concepts.
+Focused on distributed computing concepts using MPI, OpenCL, and CUDA.
 
-#### Topics Covered
+### Technologies Learned
 
-* MPI Programming
+* Python
+* MPI (mpi4py)
+* OpenCL
+* CUDA
+
+### Topics Covered
+
+* Parallel Computing
+* Distributed Systems
+* Broadcast Communication
 * Scatter & Gather Operations
-* Reduce & AllReduce
-* Parallel Processing
+* Reduction Operations
+* Load Balancing
+* GPU Programming
 * OpenCL Programming
 * CUDA Programming
-* Distributed Computing
 
-#### Practical Work
+### Labs Completed
 
-* Parallel Array Operations
-* Distributed Data Processing
-* Weather Sensor Simulation
-* Word Count Processing
-* GPU-Based Computation Tasks
+| Lab    | Topics                          |
+| ------ | ------------------------------- |
+| Lab 01 | MPI Introduction                |
+| Lab 02 | Parallel Computing Fundamentals |
+| Lab 03 | MPI Communication               |
+| Lab 04 | Point-to-Point Communication    |
+| Lab 05 | Scatter & Gather                |
+| Lab 06 | Load Balancing                  |
+| Lab 07 | Reduction Operations            |
+| Lab 08 | Non-Blocking Communication      |
+| Lab 09 | OpenCL Programming              |
+| Lab 10 | String Processing               |
+| Lab 11 | Matrix Operations               |
+| Lab 12 | Parallel Sorting                |
+| Lab 13 | CUDA Programming                |
+
+### Practical Implementations
+
+* MPI Communication Programs
+* Distributed Computation
+* Parallel Sorting Algorithms
+* OpenCL Kernels
+* CUDA Matrix Operations
+* GPU Performance Testing
 
 ---
 
-### Web Development
+## 🌐 Web Development
 
-Full Stack Web Development using modern web technologies.
+Focused on full-stack web development using PHP, MySQL, Bootstrap, CodeIgniter, and WordPress.
 
-#### Technologies Covered
+### Technologies Learned
 
 * HTML5
 * CSS3
@@ -76,84 +163,152 @@ Full Stack Web Development using modern web technologies.
 * MySQL
 * CodeIgniter 4
 * WordPress
+* Git & GitHub
 
-#### Major Topics
+### Skills Developed
 
 * Responsive Web Design
-* PHP Programming
-* Database Integration
 * CRUD Operations
-* MVC Architecture
 * Authentication Systems
-* CMS Development
+* Database Integration
+* MVC Architecture
+* CMS Management
+* Dashboard Development
 
-#### Major Projects
+### Labs Completed
 
-* Employee Management System
-* User Management System (CodeIgniter 4)
-* WordPress Environment Setup
-* Madrassa Website Assignment
-* School Fee, Salary & Attendance Management System
+| Lab    | Topics                        |
+| ------ | ----------------------------- |
+| Lab 01 | HTML Basics                   |
+| Lab 02 | Images & Media                |
+| Lab 03 | Forms & Layouts               |
+| Lab 04 | Advanced HTML                 |
+| Lab 05 | CSS Styling                   |
+| Lab 06 | Responsive Design             |
+| Lab 07 | Forms & Effects               |
+| Lab 08 | JavaScript                    |
+| Lab 09 | PHP & MySQL                   |
+| Lab 10 | Dashboard System              |
+| Lab 11 | Employee Management System    |
+| Lab 12 | CodeIgniter 4 MVC Application |
+| Lab 13 | WordPress Setup & Themes      |
 
----
+### Major Web Projects
 
-## Technologies Used
+#### 🍽️ FoodieHub
 
-* Flutter
-* Dart
-* Firebase
-* Stripe API
-* Google Maps API
+Restaurant website built using:
+
+* HTML
+* CSS
+* JavaScript
+* Responsive Design
+
+#### 💪 FitZone
+
+Modern Gym Website built using:
+
+* HTML
+* CSS
+* Bootstrap 5
+* JavaScript
+
+#### 🕌 Madrasa Website
+
+Educational website developed using HTML and CSS.
+
+#### 🏫 School Fee, Salary & Attendance Management System
+
+Semester Project
+
+Technologies:
+
 * PHP
 * MySQL
 * Bootstrap 5
 * JavaScript
-* CodeIgniter 4
-* WordPress
-* Python
-* MPI
-* OpenCL
-* CUDA
-* Git & GitHub
 
----
-
-## Semester Projects
-
-### Life Track (MAD)
-
-A Flutter-based mobile application developed as the semester project.
-
-### School Fee, Salary & Attendance Management System
-
-A full-stack PHP & MySQL management system featuring:
+Features:
 
 * Authentication System
 * Student Management
 * Teacher Management
-* Attendance Tracking
+* Attendance Management
 * Fee Management
 * Salary Management
+* Receipt Generation
 * Reporting Module
+* Dashboard Analytics
 
 ---
 
-## Learning Outcomes
+# 🏆 Major Skills Acquired
 
-* Mobile Application Development with Flutter
+### Mobile Development
+
+* Flutter Development
 * Firebase Integration
+* Mobile Authentication
+* API Integration
+* Google Maps Integration
 * Payment Gateway Integration
-* Biometric Authentication
-* Parallel Computing Concepts
-* Full Stack Web Development
-* MVC Framework Development
-* Database Design & Management
-* Real World Project Development
+
+### Web Development
+
+* Full Stack Development
+* PHP & MySQL
+* Bootstrap UI Design
+* CodeIgniter MVC
+* WordPress Management
+
+### Parallel Computing
+
+* MPI Programming
+* OpenCL Development
+* CUDA Programming
+* Distributed Systems
+
+### Software Engineering
+
+* Problem Solving
+* Debugging
+* Project Structuring
+* Documentation
+* Version Control
 
 ---
 
-## Author
+# 🎯 Semester Outcome
 
-Rifaq Ajmal
+By the end of Semester 6, I successfully completed:
 
-BS Computer Science – UET Mardan
+✅ 16 Mobile Application Development Labs
+
+✅ 13 Parallel & Distributed Computing Labs
+
+✅ 13 Web Development Labs
+
+✅ Multiple Practical Assignments
+
+✅ Flutter Semester Project (Life Track)
+
+✅ School Fee, Salary & Attendance Management System
+
+✅ Stripe Payment Gateway Integration
+
+✅ Fingerprint Authentication System
+
+✅ Google Maps Integration
+
+✅ Firebase Applications
+
+✅ Parallel Computing Projects
+
+This semester represents my strongest practical software development experience, covering mobile development, web development, databases, cloud services, distributed systems, and real-world project implementation.
+
+---
+
+**Student:** Rifaq Ajmal
+**Program:** BS Computer Science
+**University:** UET Mardan
+**Semester:** 6th Semester
