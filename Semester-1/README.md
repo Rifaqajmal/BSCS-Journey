@@ -1,57 +1,38 @@
-# Semester 1 – BS Computer Science
+# 📘 Semester 1
 
-This folder contains coursework and practical tasks completed during Semester 1 of the BS Computer Science program.
+This folder contains coursework, lab tasks, and practical assignments completed during Semester 1 of my Bachelor of Science in Computer Science (BSCS) program at the University of Engineering & Technology (UET) Mardan.
 
-## Subjects Included
+## 📚 Subjects
 
-### Fundamentals of Programming (C)
+- Fundamentals of Programming (C Language)
+- Introduction to Information & Communication Technology (ICT)
 
-Topics Covered:
+## 🎯 Learning Outcomes
 
-* Basic C Programming
-* Variables & Data Types
-* Conditional Statements
-* Loops
-* Functions
-* Arrays
-* Structures
-* Call by Value & Call by Reference
+During this semester, I learned:
 
-Practical Work:
+- Basic programming concepts
+- Problem-solving techniques
+- Functions and parameter passing
+- Arrays and Structures
+- Conditional statements and loops
+- Basic web development using HTML
+- Creating simple webpages and forms
 
-* Hello World Program
-* Arithmetic Operations
-* Even/Odd Checker
-* Largest Number Finder
-* Factorial Calculation
-* Vowel Checker
-* Arrays & Structures
-* Age Calculator Semester Project
+## 📂 Contents
+
+### Fundamentals of Programming
+C language programs covering basic programming concepts.
 
 ### ICT
+HTML-based webpages demonstrating introductory web development concepts.
 
-Topics Covered:
+## 🛠 Technologies Used
 
-* HTML Fundamentals
-* Web Page Structure
-* Forms
-* Tables
-* Navigation Menus
-* Basic Web Design
+- C Programming
+- HTML5
 
-Practical Work:
-
-* Simple Web Pages
-* Student Profile Card
-* Login Form
-* Styled Tables
-* Navigation Menu
-
-## Technologies Used
-
-* C Programming
-* HTML5
-
-## Author
-Rifaq Ajmal
-BS Computer Science – UET Mardan
+---
+**Semester:** 1  
+**Program:** BS Computer Science  
+**University:** UET Mardan
