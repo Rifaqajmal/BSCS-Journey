@@ -1,72 +1,50 @@
-# Semester 3 – BS Computer Science
+# Semester 3
 
-This folder contains practical work, lab exercises, and database tasks completed during Semester 3.
+This semester focused on core computer science concepts including Data Structures & Algorithms, Database Management Systems, and Computer Organization & Assembly Language.
 
-## Subjects Included
+## Subjects
 
-### Data Structures & Algorithms (DSA)
-
-Topics Covered:
-
-* Arrays
-* Pointers
-* Stacks
-* Queues
-* Linked Lists
-* Circular Linked Lists
-* Trees
-* Binary Search Trees
-* Sorting Algorithms
-
-Practical Work:
-
-* Stack & Queue Implementations
-* Linked List Operations
-* BST Applications
-* Run-Length Encoding Project
-
-### Database Management Systems (DBMS)
-
-Topics Covered:
-
-* SQL Fundamentals
-* CRUD Operations
-* Joins
-* Subqueries
-* Views
-* Indexes
-* Aggregate Functions
-
-Practical Work:
-
-* Database Creation
-* Query Writing
-* Data Manipulation
-
-### Computer Organization & Assembly Language (COAL)
-
-Topics Covered:
+### 🖥️ COAL (Computer Organization & Assembly Language)
 
 * Assembly Language Programming
-* Data Types
-* Loops
-* Procedures
-* Macros
-* Stack Operations
+* Memory Management
+* CPU Instructions
 * Addressing Modes
-* Arithmetic Instructions
+* Procedures & Macros
 
-Practical Work:
+### 🗄️ DBMS (Database Management Systems)
 
-* Assembly Language Programs
-* COAL Laboratory Reports
+* SQL Programming
+* Database Design
+* Relational Databases
+* Query Optimization
+* Views and Indexes
+
+### 📊 DSA (Data Structures & Algorithms)
+
+* Arrays & Pointers
+* Stacks & Queues
+* Linked Lists
+* Trees
+* Searching & Sorting Algorithms
 
 ## Technologies Used
 
 * C++
 * SQL
 * Assembly Language
+* MySQL
 
-## Author
-Rifaq Ajmal
-BS Computer Science – UET Mardan
+## Skills Developed
+
+* Algorithm Design
+* Database Querying
+* Data Structure Implementation
+* Low-Level Programming
+* Problem Solving
+
+---
+
+**Semester:** 3
+**Program:** BS Computer Science
+**University:** UET Mardan
