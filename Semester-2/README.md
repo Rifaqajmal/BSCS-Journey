@@ -1,66 +1,51 @@
-# Semester 2 – BS Computer Science
+# 📘 Semester 2
 
-This folder contains coursework, assignments, reports, and programming tasks completed during Semester 2.
+This semester focused on strengthening programming fundamentals through Object-Oriented Programming, understanding Digital Logic Design concepts, and studying mathematical foundations through Discrete Structures.
 
-## Subjects Included
+## 📂 Subjects
 
-### Object-Oriented Programming (OOP)
+### 🔹 Object-Oriented Programming (OOP)
+- C++ Programming
+- Classes & Objects
+- Constructors
+- Function Overloading
+- Operator Overloading
+- Inheritance
+- Polymorphism
+- Encapsulation
+- File Handling
+- Mini Projects
 
-Topics Covered:
+### 🔹 Digital Logic Design (DLD)
+- Logic Gates
+- Combinational Circuits
+- Sequential Circuits
+- Digital System Design
+- Lab Experiments & Reports
+- Semester Project
 
-* Classes & Objects
-* Constructors
-* Function Overloading
-* Operator Overloading
-* Inheritance
-* Polymorphism
-* Encapsulation
-* File Handling
+### 🔹 Discrete Structures
+- Mathematical Logic
+- Sets & Relations
+- Functions
+- Graph Theory Basics
+- Assignments & Presentations
 
-Practical Work:
+## 🛠 Technologies Used
 
-* Calculator System
-* Employee Records
-* Toll Booth System
-* Bank Management Project
+- C++
+- Digital Logic Simulation Tools
+- Microsoft Office
+- PDF Documentation
 
-### Digital Logic Design (DLD)
+## 🎯 Learning Outcomes
 
-Topics Covered:
+- Object-Oriented Programming Concepts
+- Problem Solving using C++
+- Digital Circuit Design
+- Mathematical Foundations of Computer Science
 
-* Logic Gates
-* Boolean Algebra
-* Combinational Circuits
-* Sequential Circuits
-* Digital System Design
+---
 
-Practical Work:
-
-* Laboratory Reports
-* Semester Project Documentation
-
-### Discrete Structures
-
-Topics Covered:
-
-* Logic
-* Sets
-* Relations
-* Functions
-* Graph Theory
-* Mathematical Reasoning
-
-Practical Work:
-
-* Assignments
-* Presentations
-
-## Technologies Used
-
-* C++
-* Digital Logic Design Tools
-* Microsoft Office
-
-## Author
-Rifaq Ajmal
-BS Computer Science – UET Mardan
+**University:** UET Mardan  
+**Program:** BS Computer Science
