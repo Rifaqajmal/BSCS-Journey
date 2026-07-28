@@ -10,7 +10,7 @@ This repository documents my learning journey from Semester 1 to Semester 6, inc
 
 **Rifaq Ajmal**
 
-🎓 BS Computer Science Graduate (UET Mardan)
+🎓 BS Computer Science Student — Semester 6, UET Mardan
 💻 Full Stack Web Developer | Flutter Developer
 🌱 Passionate about Software Development, Web Technologies, Mobile Applications, and Problem Solving
 
@@ -93,29 +93,22 @@ This repository documents my learning journey from Semester 1 to Semester 6, inc
 
 ## 🌟 Major Academic Projects
 
-### 📁 Nexus File Organizer
-
-Python-based desktop application for automatic file organization and management.
+### 🏪 Shop Rental Management System
+Complete PHP & MySQL management system featuring authentication, billing, payments, receipts, ledgers, and reports.
+🔗 [Repository](https://github.com/Rifaqajmal/rental-management-system)
 
 ### 🏫 School Fee, Salary & Attendance Management System
-
 Full-stack PHP & MySQL web application for managing students, teachers, attendance, fees, salaries, and reports.
 
-### 🏪 Shop Rental Management System
-
-Complete PHP & MySQL management system featuring authentication, billing, payments, receipts, ledgers, and reports.
+### 📁 Nexus File Organizer
+Python-based desktop application for automatic file organization and management.
+🔗 [Repository](https://github.com/Rifaqajmal/nexus-file-organizer)
 
 ### 📱 Life Track
-
-Flutter-based mobile application developed as a semester project.
-
-### 📊 SJF Scheduling Project
-
-Python implementation of the Shortest Job First CPU Scheduling Algorithm.
+Flutter-based mobile application developed as a semester project, featuring Firebase Authentication and Realtime Database.
 
 ### 🧮 Numerical Computing Implementations
-
-Collection of Python implementations for numerical methods and computational algorithms.
+Collection of Python implementations for numerical methods and computational algorithms, including CPU scheduling simulations (e.g. Shortest Job First).
 
 ---
 
@@ -180,13 +173,9 @@ Through this academic journey, I gained practical experience in:
 
 ## 🔗 Connect With Me
 
-GitHub: https://github.com/Rifaqajmal
-
-LinkedIn:
-https://www.linkedin.com/in/rifaq-ajmal-4b5a513b3
-
-Portfolio:
-https://rifaqajmal.github.io
+- 🐙 GitHub: [github.com/Rifaqajmal](https://github.com/Rifaqajmal)
+- 💼 LinkedIn: [linkedin.com/in/rifaq-ajmal-4b5a513b3](https://www.linkedin.com/in/rifaq-ajmal-4b5a513b3)
+- 🌐 Portfolio: [rifaqajmal.github.io](https://rifaqajmal.github.io)
 
 ---
 
